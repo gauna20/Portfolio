@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
+#    'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
@@ -73,7 +73,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Central'
 
 USE_I18N = True
 
